@@ -39,3 +39,15 @@ dustin.innerText = "Dustin";
 // put the element in the container
 studentDiv.append(kim, dustin, max, cameron);
 studentContainer.append(studentDiv);
+
+const fries = [
+  {
+    id: 1,
+    name: "Burger and Fries",
+    image_url: "https://source.unsplash.com/random/800x600/?burger,fries",
+    description:
+      "Classic American meal with a beef patty, cheese, lettuce, tomato, onion, and fries.",
+    price: 9.99,
+    category: "burger",
+  },
+];
